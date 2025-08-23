@@ -8,5 +8,5 @@ export default {
 	dbCredentials: {
 		url: env.DATABASE_URL,
 	},
-	tablesFilter: ["austin-falk-app_*"],
+	tablesFilter: ["austin-falk-website_*"],
 } satisfies Config;
