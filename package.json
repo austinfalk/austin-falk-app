@@ -20,9 +20,9 @@
   "dependencies": {
     "@t3-oss/env-nextjs": "^0.13.8",
     "@tanstack/react-query": "^5.85.5",
-    "@trpc/client": "^11.4.4",
-    "@trpc/react-query": "^11.4.4",
-    "@trpc/server": "^11.4.4",
+    "@trpc/client": "^11.5.0",
+    "@trpc/react-query": "^11.5.0",
+    "@trpc/server": "^11.5.0",
     "drizzle-orm": "^0.44.4",
     "next": "^15.5.0",
     "postgres": "^3.4.7",
@@ -30,13 +30,13 @@
     "react-dom": "^19.1.1",
     "server-only": "^0.0.1",
     "superjson": "^2.2.2",
-    "zod": "^4.0.17"
+    "zod": "^4.1.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.0",
+    "@biomejs/biome": "^2.2.2",
     "@tailwindcss/postcss": "^4.1.12",
     "@types/node": "^22.17.2",
-    "@types/react": "^19.1.10",
+    "@types/react": "^19.1.11",
     "@types/react-dom": "^19.1.7",
     "drizzle-kit": "^0.31.4",
     "postcss": "^8.5.6",
