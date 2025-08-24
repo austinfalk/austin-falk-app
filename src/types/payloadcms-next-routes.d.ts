@@ -3,9 +3,16 @@ declare module '@payloadcms/next/routes' {
 
   type HandlerReturn = Response | Promise<Response> | void | Promise<void>;
 
+  // Next expects the route context argument to be present.
+  // Using a generic params shape makes specific generated params
+  // like { slug: string[] } assignable.
+  type RouteContext = {
+    params: Promise<Record<string, unknown>>;
+  };
+
   type PayloadHandler = (
     request: Request | NextRequest,
-    context?: { params?: Promise<Record<string, unknown>> }
+    context: RouteContext
   ) => HandlerReturn;
 
   export function REST_OPTIONS(config: unknown): PayloadHandler;
